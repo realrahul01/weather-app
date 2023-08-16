@@ -1,0 +1,117 @@
+body{
+    background-image: url('./Images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.containerPart1{
+    background-image: url('./Images/city.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 88vh;
+    width: 66vh;
+    color: #fff;
+}
+.containerPart2{
+    /* background-color: red; */
+    color: #fff;
+    width: 45vh;
+    height: 88vh;
+    text-align: center;
+    /* background: linear-gradient(red,blue,green); */
+    background-color: rgba(0, 0, 0, 0.73);
+}
+.weatherDetail{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 7px;    
+}
+.searchInput input{
+    margin-top: 20px;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.weather{
+    border-bottom: 1px solid #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.searchInput button img{
+    width: 20px;
+    margin-top: 5px;
+}
+.searchInput button{
+    background: red;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.searchInput button:hover{
+    background-color: green;
+}
+.gif{
+    margin-bottom: 40px;
+}
+.weatherDetail span{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.weatherDetail:last-child{
+    border-bottom: none;
+}
+.clock{
+    position: absolute;
+    bottom: 60px;
+    margin-left: 30px;
+    font-size: 27px;
+}
+.timeZone{
+    position: absolute;
+    bottom: 40px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.error{
+    color: red;
+    position: relative;
+    top: -18px;
+    right: 26px;
+}
+.weatherIcon p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 700;
+}
+.weatherIcon img{
+    width: 70px;
+}
+.containerPart1 h3{
+    font-size: 30px;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.geotemp{
+    position: absolute;
+    bottom: 15px;
+    margin-left: 280px;
+    font-size: 50px;
+
+}
